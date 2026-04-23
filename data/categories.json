@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "写作助手",
+    "slug": "writing",
+    "icon": "pen-line",
+    "description": "AI 驱动的写作和内容创作工具"
+  },
+  {
+    "id": "2",
+    "name": "图像生成",
+    "slug": "image",
+    "icon": "image",
+    "description": "AI 图像生成和编辑工具"
+  },
+  {
+    "id": "3",
+    "name": "代码辅助",
+    "slug": "code",
+    "icon": "code",
+    "description": "AI 编程和代码辅助工具"
+  },
+  {
+    "id": "4",
+    "name": "音频处理",
+    "slug": "audio",
+    "icon": "music",
+    "description": "AI 音频处理和生成工具"
+  },
+  {
+    "id": "5",
+    "name": "视频工具",
+    "slug": "video",
+    "icon": "video",
+    "description": "AI 视频创作和编辑工具"
+  },
+  {
+    "id": "6",
+    "name": "设计工具",
+    "slug": "design",
+    "icon": "palette",
+    "description": "AI 设计和创意工具"
+  }
+]

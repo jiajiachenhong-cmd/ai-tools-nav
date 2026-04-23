@@ -1,0 +1,7 @@
+{
+  "id": "user-001",
+  "name": "张小明",
+  "email": "zhangxiaoming@example.com",
+  "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=xiaoming",
+  "isLoggedIn": false
+}

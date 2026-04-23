@@ -1,0 +1,224 @@
+[
+  {
+    "id": "1",
+    "name": "智能写作助手",
+    "slug": "smart-writer",
+    "url": "https://example.com/smart-writer",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=writer",
+    "coverImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=400&fit=crop",
+    "category": "写作助手",
+    "categorySlug": "writing",
+    "summary": "AI 驱动的智能写作工具，帮助您快速创作高质量内容",
+    "description": "智能写作助手是一款基于大语言模型的 AI 写作工具。它能够帮助用户快速生成文章、博客、营销文案等各类内容。支持多种写作风格，可根据用户需求自动调整语气和表达方式。内置语法检查和优化建议功能，让您的文字更加专业流畅。",
+    "qa": [
+      {"question": "支持哪些语言？", "answer": "目前支持中文、英文、日文等 10 多种语言。"},
+      {"question": "是否免费使用？", "answer": "提供免费试用额度，高级功能需订阅会员。"},
+      {"question": "生成的内容可以商用吗？", "answer": "是的，所有生成内容的版权归用户所有。"}
+    ],
+    "isHot": true,
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "2",
+    "name": "AI 绘画大师",
+    "slug": "ai-painter",
+    "url": "https://example.com/ai-painter",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=painter",
+    "coverImage": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=800&h=400&fit=crop",
+    "category": "图像生成",
+    "categorySlug": "image",
+    "summary": "文字转图像的 AI 绘画工具，支持多种艺术风格",
+    "description": "AI 绘画大师采用最先进的扩散模型技术，能够根据文字描述生成高质量图像。支持写实、动漫、油画、水彩等多种艺术风格。提供图像编辑、风格迁移、局部重绘等高级功能。适合设计师、艺术家和内容创作者使用。",
+    "qa": [
+      {"question": "生成一张图需要多长时间？", "answer": "通常在 10-30 秒内完成，具体取决于图像复杂度。"},
+      {"question": "支持什么分辨率？", "answer": "最高支持 4K 分辨率输出。"},
+      {"question": "可以上传参考图吗？", "answer": "支持上传参考图进行风格迁移和图像融合。"}
+    ],
+    "isHot": true,
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": "3",
+    "name": "代码助理",
+    "slug": "code-copilot",
+    "url": "https://example.com/code-copilot",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=coder",
+    "coverImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop",
+    "category": "代码辅助",
+    "categorySlug": "code",
+    "summary": "智能代码补全和生成工具，提升开发效率",
+    "description": "代码助理是一款集成在 IDE 中的 AI 编程助手。支持 Python、JavaScript、TypeScript、Go 等主流编程语言。提供智能代码补全、代码生成、Bug 修复建议、代码解释等功能。帮助开发者显著提升编码效率和代码质量。",
+    "qa": [
+      {"question": "支持哪些 IDE？", "answer": "支持 VS Code、JetBrains 全家桶、Vim 等主流编辑器。"},
+      {"question": "会泄露我的代码吗？", "answer": "我们严格保护用户隐私，代码不会被用于训练模型。"},
+      {"question": "离线可以使用吗？", "answer": "目前需要联网使用，离线版本正在开发中。"}
+    ],
+    "isHot": true,
+    "createdAt": "2024-02-01"
+  },
+  {
+    "id": "4",
+    "name": "语音克隆工坊",
+    "slug": "voice-clone",
+    "url": "https://example.com/voice-clone",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=voice",
+    "coverImage": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=800&h=400&fit=crop",
+    "category": "音频处理",
+    "categorySlug": "audio",
+    "summary": "AI 语音克隆和合成工具，几秒钟复刻任何声音",
+    "description": "语音克隆工坊使用深度学习技术，只需几秒钟的音频样本即可克隆任何人的声音。支持多语言文字转语音、语音转换、音色调整等功能。广泛应用于配音、有声书制作、虚拟主播等场景。",
+    "qa": [
+      {"question": "克隆声音需要多少样本？", "answer": "最少只需 3 秒的清晰音频即可完成克隆。"},
+      {"question": "生成的语音自然吗？", "answer": "采用最新的神经网络技术，语音自然度达到真人水平。"},
+      {"question": "是否有使用限制？", "answer": "禁止用于欺诈、冒充等违法用途。"}
+    ],
+    "isHot": true,
+    "createdAt": "2024-02-10"
+  },
+  {
+    "id": "5",
+    "name": "视频生成器",
+    "slug": "video-gen",
+    "url": "https://example.com/video-gen",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=video",
+    "coverImage": "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?w=800&h=400&fit=crop",
+    "category": "视频工具",
+    "categorySlug": "video",
+    "summary": "文字生成视频的 AI 工具，一键创作短视频",
+    "description": "视频生成器能够根据文字脚本自动生成完整视频。支持自动配图、配音、字幕、背景音乐。提供多种视频模板和风格选择。特别适合短视频创作者、营销人员和教育工作者使用。",
+    "qa": [
+      {"question": "视频最长可以多少分钟？", "answer": "单个视频最长支持 10 分钟。"},
+      {"question": "可以自定义配音吗？", "answer": "支持选择不同的 AI 配音员或上传自己的配音。"},
+      {"question": "支持导出什么格式？", "answer": "支持 MP4、MOV、WebM 等常见视频格式。"}
+    ],
+    "isHot": false,
+    "createdAt": "2024-03-01"
+  },
+  {
+    "id": "6",
+    "name": "智能设计助手",
+    "slug": "design-ai",
+    "url": "https://example.com/design-ai",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=design",
+    "coverImage": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=400&fit=crop",
+    "category": "设计工具",
+    "categorySlug": "design",
+    "summary": "AI 驱动的设计工具，快速生成专业设计稿",
+    "description": "智能设计助手帮助用户快速创建海报、Logo、社交媒体图片等设计作品。内置数千个专业模板，支持智能配色、排版建议。一键生成多种尺寸适配不同平台。让没有设计基础的用户也能做出专业级作品。",
+    "qa": [
+      {"question": "需要设计基础吗？", "answer": "完全不需要，AI 会自动处理所有设计细节。"},
+      {"question": "可以自定义品牌色吗？", "answer": "支持设置品牌色板，保持设计一致性。"},
+      {"question": "设计稿可以继续编辑吗？", "answer": "支持导出为 PSD、AI 等可编辑格式。"}
+    ],
+    "isHot": false,
+    "createdAt": "2024-03-05"
+  },
+  {
+    "id": "7",
+    "name": "文案精灵",
+    "slug": "copywriting-ai",
+    "url": "https://example.com/copywriting",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=copy",
+    "coverImage": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&h=400&fit=crop",
+    "category": "写作助手",
+    "categorySlug": "writing",
+    "summary": "营销文案和广告语 AI 生成工具",
+    "description": "文案精灵专注于营销文案创作，能够生成广告语、产品描述、社交媒体文案等。支持多种文案风格和情感基调。内置 A/B 测试功能，帮助找到最有效的文案版本。",
+    "qa": [
+      {"question": "适合什么行业？", "answer": "适用于电商、教育、金融等各个行业。"},
+      {"question": "可以批量生成吗？", "answer": "支持批量生成多个版本供选择。"}
+    ],
+    "isHot": false,
+    "createdAt": "2024-03-10"
+  },
+  {
+    "id": "8",
+    "name": "图像修复专家",
+    "slug": "image-restore",
+    "url": "https://example.com/image-restore",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=restore",
+    "coverImage": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&h=400&fit=crop",
+    "category": "图像生成",
+    "categorySlug": "image",
+    "summary": "老照片修复和图像增强 AI 工具",
+    "description": "图像修复专家使用 AI 技术修复老照片、模糊图片。支持去除划痕、提升分辨率、上色黑白照片等功能。一键操作，效果惊艳。",
+    "qa": [
+      {"question": "支持什么格式的图片？", "answer": "支持 JPG、PNG、WebP 等常见图片格式。"},
+      {"question": "修复效果可以预览吗？", "answer": "提供实时预览，满意后再保存。"}
+    ],
+    "isHot": false,
+    "createdAt": "2024-03-15"
+  },
+  {
+    "id": "9",
+    "name": "智能调试器",
+    "slug": "debug-ai",
+    "url": "https://example.com/debug-ai",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=debug",
+    "coverImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop",
+    "category": "代码辅助",
+    "categorySlug": "code",
+    "summary": "AI 代码调试和错误修复工具",
+    "description": "智能调试器能够自动分析代码错误，提供修复建议。支持多种编程语言，能够解释错误原因并给出最佳修复方案。集成代码审查功能，提升代码质量。",
+    "qa": [
+      {"question": "可以自动修复吗？", "answer": "提供一键修复功能，也可以选择手动修改。"},
+      {"question": "支持团队协作吗？", "answer": "支持团队共享代码审查结果。"}
+    ],
+    "isHot": false,
+    "createdAt": "2024-03-20"
+  },
+  {
+    "id": "10",
+    "name": "音乐创作家",
+    "slug": "music-composer",
+    "url": "https://example.com/music-composer",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=music",
+    "coverImage": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&h=400&fit=crop",
+    "category": "音频处理",
+    "categorySlug": "audio",
+    "summary": "AI 音乐生成和编曲工具",
+    "description": "音乐创作家使用 AI 生成原创音乐。支持多种音乐风格，可以根据情绪、场景生成配乐。适合视频配乐、游戏音乐、广告音乐等场景。",
+    "qa": [
+      {"question": "生成的音乐有版权吗？", "answer": "所有生成音乐的版权归用户所有，可商用。"},
+      {"question": "可以编辑生成的音乐吗？", "answer": "支持导出 MIDI 文件进行二次编辑。"}
+    ],
+    "isHot": false,
+    "createdAt": "2024-03-25"
+  },
+  {
+    "id": "11",
+    "name": "短视频剪辑",
+    "slug": "video-editor",
+    "url": "https://example.com/video-editor",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=editor",
+    "coverImage": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=400&fit=crop",
+    "category": "视频工具",
+    "categorySlug": "video",
+    "summary": "AI 智能视频剪辑工具",
+    "description": "短视频剪辑使用 AI 自动识别视频高光时刻，智能剪辑生成精彩片段。支持自动添加字幕、特效、转场。一键生成适合各平台的短视频。",
+    "qa": [
+      {"question": "支持多长的原视频？", "answer": "支持处理最长 2 小时的视频素材。"},
+      {"question": "可以批量处理吗？", "answer": "支持批量上传和处理多个视频。"}
+    ],
+    "isHot": false,
+    "createdAt": "2024-04-01"
+  },
+  {
+    "id": "12",
+    "name": "UI 设计生成",
+    "slug": "ui-generator",
+    "url": "https://example.com/ui-generator",
+    "logo": "https://api.dicebear.com/7.x/shapes/svg?seed=ui",
+    "coverImage": "https://images.unsplash.com/photo-1545235617-9465d2a55698?w=800&h=400&fit=crop",
+    "category": "设计工具",
+    "categorySlug": "design",
+    "summary": "AI 驱动的 UI/UX 设计工具",
+    "description": "UI 设计生成器帮助设计师快速生成 App 和网页 UI 设计稿。支持从线框图生成高保真设计，自动生成设计系统和组件库。与 Figma、Sketch 无缝集成。",
+    "qa": [
+      {"question": "可以导出代码吗？", "answer": "支持导出 React、Vue 等前端代码。"},
+      {"question": "支持响应式设计吗？", "answer": "自动生成多端适配的响应式设计。"}
+    ],
+    "isHot": false,
+    "createdAt": "2024-04-05"
+  }
+]
