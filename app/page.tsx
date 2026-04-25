@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useCallback } from "react";
+import { useRef, useCallback, useEffect } from "react";
 import { Sidebar } from "@/components/sidebar";
 import { Header } from "@/components/header";
 import { ToolGrid } from "@/components/tool-grid";
@@ -22,6 +22,19 @@ export default function HomePage() {
     sectionRefs.current[slug] = el;
   }, []);
 
+  // 从其他页经侧边栏进入首页并带 #category-xxx 时，滚动到对应分类（Link / 直链均适用）
+  useEffect(() => {
+    const scrollToHashCategory = () => {
+      const raw = window.location.hash.slice(1);
+      if (!raw.startsWith("category-")) return;
+      const el = document.getElementById(raw);
+      el?.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    scrollToHashCategory();
+    window.addEventListener("hashchange", scrollToHashCategory);
+    return () => window.removeEventListener("hashchange", scrollToHashCategory);
+  }, []);
+
   const hotTools = getHotTools();
   const latestTools = getLatestTools();
 
@@ -30,8 +43,8 @@ export default function HomePage() {
       {/* 侧边栏 */}
       <Sidebar onCategoryClick={handleCategoryClick} />
 
-      {/* 主内容区 */}
-      <div className="pl-56">
+      {/* 主内容区：提高叠放层级，避免与 fixed 侧栏/异常叠层争用事件 */}
+      <div className="relative isolate z-20 pl-56">
         {/* 头部 */}
         <Header />
 

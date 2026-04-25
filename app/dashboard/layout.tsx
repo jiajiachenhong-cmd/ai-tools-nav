@@ -11,9 +11,9 @@ import { useAuth } from "@/contexts/auth-context";
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { href: "/dashboard", label: "提交历史", icon: FileText },
-  { href: "/dashboard/submit", label: "提交站点", icon: Send },
   { href: "/dashboard/profile", label: "个人信息", icon: User },
+  { href: "/dashboard/submit", label: "提交站点", icon: Send },
+  { href: "/dashboard", label: "提交历史", icon: FileText },
 ];
 
 export default function DashboardLayout({

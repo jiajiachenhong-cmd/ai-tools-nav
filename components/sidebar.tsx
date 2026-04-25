@@ -59,7 +59,7 @@ export function Sidebar({ onCategoryClick }: SidebarProps) {
 
   return (
     <>
-      <aside className="fixed left-0 top-0 z-40 h-screen w-56 bg-sidebar text-sidebar-foreground flex flex-col">
+      <aside className="fixed left-0 top-0 z-40 h-screen w-56 max-w-[14rem] overflow-x-hidden bg-sidebar text-sidebar-foreground flex flex-col">
         {/* Logo */}
         <div className="flex items-center gap-2 px-4 py-5 border-b border-sidebar-border">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
@@ -81,15 +81,30 @@ export function Sidebar({ onCategoryClick }: SidebarProps) {
           <nav className="flex flex-col gap-1">
             {categories.map((category) => {
               const Icon = iconMap[category.icon] || PenLine;
+              const itemClassName =
+                "flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-left cursor-pointer";
+              if (onCategoryClick) {
+                return (
+                  <button
+                    key={category.id}
+                    type="button"
+                    onClick={() => onCategoryClick(category.slug)}
+                    className={itemClassName}
+                  >
+                    <Icon className="h-4 w-4" />
+                    {category.name}
+                  </button>
+                );
+              }
               return (
-                <button
+                <Link
                   key={category.id}
-                  onClick={() => onCategoryClick?.(category.slug)}
-                  className="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-left cursor-pointer"
+                  href={`/#category-${category.slug}`}
+                  className={itemClassName}
                 >
                   <Icon className="h-4 w-4" />
                   {category.name}
-                </button>
+                </Link>
               );
             })}
           </nav>
